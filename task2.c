@@ -19,10 +19,10 @@ int main() {
     char pass[] = "90334508";
 
     printf("Enter your email: ");
-    scanf("%s",email);
+    scanf("%s",&email);
 
     printf("Enter your password: ");
-    scanf("%s",pass);
+    scanf("%s",&pass);
 
     if (strcmp(email,email1) == 0 && strcmp(pass,pass1) == 0) {
         printf("Login successful");
